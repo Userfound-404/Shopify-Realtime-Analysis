@@ -1,46 +1,46 @@
-Shopify Realtime Analysis - Power BI
-Overview
-This project delivers a comprehensive Power BI dashboard analyzing Shopify sales and customer behavior in real time. It visualizes essential business KPIs, transaction performance, payment methods, product types, geographical breakdowns, and customer insights for enhanced decision-making.
+# Shopify Realtime Analysis – Power BI  
 
-Key Features
-Sales Performance: Track net sales, total quantity, and average order value over time for clear business trends.
+## 📌 Overview  
+This project delivers a **comprehensive Power BI dashboard** analyzing Shopify sales and customer behavior in real time. It visualizes essential KPIs such as sales performance, product trends, payment methods, and customer retention for enhanced decision-making.  
 
-Customer Insights: See total customers, repeat vs. single-order segmentation, repeat rates, and customer lifetime value to optimize retention strategies.
+---
 
-Product Breakdown: Analyze net sales by product type (e.g., shoes, accessories, jackets, gift cards) for category-level performance.
+## 🚀 Key Features  
+- **Sales Performance**: Track net sales, total quantity, and average order value over time.  
+- **Customer Insights**: View total customers, repeat vs. single-order segmentation, repeat rates, and customer lifetime value.  
+- **Product Breakdown**: Analyze sales by product type (e.g., shoes, accessories, jackets, gift cards).  
+- **Payment Analysis**: Interactive visuals by gateway (Shopify Payments, PayPal, AmazonPayments, Giftcards, Manual).  
+- **Geographical Reporting**: Drill into sales by city, state, and zip code to identify high-performing regions.  
+- **Filter Panel**: Dynamic filtering by province, sales gateway, and time range.  
+- **Retention & Value KPIs**: Repeat rates, purchase frequency, and customer value.  
+- **Detailed Transactions**: Data tables of individual orders with customer, product, payment, and price details.  
 
-Payment Analysis: Interactive visuals for sales by gateway (Shopify Payments, PayPal, AmazonPayments, Giftcards, Manual).
+---
 
-Geographical Reporting: Drill-down into sales by city, state, and zip code to identify high-performing regions.
+## 🛠 Usage  
+1. Open the Power BI file (`.pbix`) in **Power BI Desktop**.  
+2. Connect your Shopify sales dataset and map it to the provided data model.  
+3. Use the **filter panel** to customize drilling and segment analysis.  
+4. Explore dashboards for insights into customers, products, and regions.  
 
-Filter Panel: Dynamically filter by province, sales gateway, and time for customized views.
+---
 
-Retention & Value KPIs: Dashboard tabs for repeat rates, purchase frequency, and retention value.
+## 📊 Data Fields  
 
-Detailed Transactions: Data tables showing individual orders, customer names, product types, payment methods, and total prices.
+| Field           | Description                                |  
+|-----------------|--------------------------------------------|  
+| Order Number    | Unique transaction ID                     |  
+| Customer Name   | Associated customer                       |  
+| Province / City | Location details                          |  
+| Product Type    | Purchased category (e.g., shoes, jackets) |  
+| Gateway         | Payment method used                       |  
+| Net Sales / Tax | Sales and tax breakdowns                  |  
+| Total Price USD | Final order price                         |  
 
-Usage
-Open the Power BI file in Power BI Desktop.
+---
 
-Connect your Shopify sales data—ensure proper mapping with the included data model.
-
-Use filter panel on the dashboard for custom drilling.
-
-Review key insights across customer, sales, product, and location perspectives.
-
-Data Fields
-Field	Description
-Order Number	Unique transaction ID
-Customer Name	Associated customer
-Province / City	Location details
-Product Type	Category purchased
-Gateway	Payment method
-Net Sales / Tax	Sales and tax breakdowns
-Total Price USD	Final order price
-Tabs & KPIs
-Main Dashboard: High-level performance metrics, sales trends, and map-based breakdowns.
-
-Details Tab: Transaction-level data for audit and granularity.
-
-Retention KPIs: Customer behavior stats and repeat rates.
-
+## 📑 Tabs & KPIs  
+- **Main Dashboard** → High-level performance metrics, sales trends, and geo maps.  
+- **Details Tab** → Transaction-level data for audits.  
+- **Retention KPIs** → Customer repeat behavior and retention metrics.  
+ 
